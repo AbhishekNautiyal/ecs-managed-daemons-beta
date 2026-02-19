@@ -17,8 +17,8 @@ These additional terms and conditions supplement the terms and conditions contai
 **Costs or Charges for use of Beta Services**	For this Beta Service, standard pricing will apply for Company’s use of Amazon ECS.
 
 **Additional Terms and Conditions**	
-•	The Beta Service will only be available at certain AWS regions specified by AWS.
-•	The Beta Service is only intended for evaluating the Beta Service using development/test workloads. You should not use it for production workloads. 
-•	You may experience some disruption as we update the Beta Service with fixes or before general availability.  In addition, Beta Service resources and any data generated during the Beta Service may not be migrated over to any generally available version of the Beta Service and may not persist past the end of the Beta Service term.
-•	AWS may change the functionality of the Beta Service during and after the term of the Beta.  Beta Service functionality, features and documentation may change during the Beta and when the Beta Service is made generally available.
+* The Beta Service will only be available in **Cape Town region**.
+* The Beta Service is only intended for evaluating the Beta Service using development/test workloads. You should not use it for production workloads.
+* You may experience some disruption as we update the Beta Service with fixes or before general availability.  In addition, Beta Service resources and any data generated during the Beta Service may not be migrated over to any generally available version of the Beta Service and may not persist past the end of the Beta Service term.
+* AWS may change the functionality of the Beta Service during and after the term of the Beta.  Beta Service functionality, features and documentation may change during the Beta and when the Beta Service is made generally available.
 
