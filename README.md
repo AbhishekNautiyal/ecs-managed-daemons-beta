@@ -1,2 +1,7 @@
-# ecs-managed-daemons-beta
-Documentation for ECS Managed Daemons Beta for ECS Managed Instances
+# Amazon ECS Managed Daemons Beta User Guide
+
+**Amazon ECS Managed Daemons** is a new capability that simplifies running daemon tasks on **ECS Managed Instances**. Previously, customers had to deploy daemons as sidecar containers tied to application lifecycles, creating operational challenges due to strong coupling, and blocking host-level monitoring as duplicate agents couldn't run in the multi-task environment on ECS Managed Instances. 
+
+With ECS Managed Daemons, ECS launches daemons as independent processes bound to EC2 instance lifecycles rather than application task lifecycles, enabling Platform Engineers to manage daemons—such as monitoring agents, log collectors, and security tools—independently of how Application Developers configure and deploy applications. ECS ensures a daemon task runs on every instance in your capacity provider. When you publish updates, ECS guarantees all instances receive the new daemon by automatically draining and replacing EC2 instances, launching the new daemon tasks before launching your service tasks. This guarantees daemon deployment and prioritization, eliminating gaps in critical monitoring coverage.
+
+Getting started with ECS Managed Daemons is easy. Using the ECS console, navigate to **Daemon task definitions** to create your daemon task definition by specifying your container image, CPU, and memory requirements. Then, go to your desired cluster's **Daemons** tab and click **Create** to deploy the daemon across one or more Managed Instances capacity providers. ECS ensures your daemon task launches first on every provisioned EC2 instance and automatically drains and replaces any running instances, guaranteeing complete daemon coverage across your Managed Instances capacity provider.
