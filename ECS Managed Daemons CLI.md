@@ -3,7 +3,7 @@
 
 ## 1. Configure AWS CLI for Beta
 
-Add the ECS preview service model to your CLI:
+Add the [ECS beta service model](https://github.com/AbhishekNautiyal/ecs-managed-daemons-beta/blob/main/ecs-test.json) to your CLI :
 
 ```
 aws configure add-model --service-model file://ecs-test.json --service-name ecs-test
